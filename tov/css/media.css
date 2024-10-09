@@ -1,0 +1,174 @@
+/* === desktop first === */
+
+/* from xl to xxl */
+*  {zoom: 97%}
+
+@media (max-width: 1400px) {
+
+}
+
+/* from lg to xl */
+
+@media (max-width: 1200px) {
+
+}
+
+/* from md to lg */
+
+@media (max-width: 992px) {	
+	.products__list {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+/* from sm to md */
+
+@media (max-width: 768px) {
+	.features {
+		flex-direction: column;
+	}
+
+	.features__img {
+		width: 100%;
+	}
+
+	.slider__pagination {
+		gap: 3rem;
+	}
+
+	.slider__circle {
+		width: 4rem;
+		height: 4rem;
+	}
+
+	.section:not(:last-child) {
+		margin-bottom: 20rem;
+	}
+
+	.about {
+		grid-template: repeat(2, auto) / auto;
+	}
+
+	#about {
+		padding: 15rem 0;
+	}
+}
+
+/* from xs to sm */
+
+@media (max-width: 576px) {
+	.nav {
+		padding: 2rem 0;
+	}
+
+	.nav #nav-phone {
+		display: none;
+	}
+
+	.header {
+		
+		height: 70rem;
+	}
+
+	.main {
+		padding: 15rem 0;
+	}
+
+	.section:not(:last-child) {
+		margin-bottom: 15rem;
+	}
+
+	.section__heading {
+		margin-bottom: 5rem;
+	}
+
+	.products__list {
+		grid-template-columns: 1fr;
+	}
+
+	.card__img {
+		height: 40rem;
+	}
+
+	.products__filter {
+		width: 100%;
+	}
+
+	.products__filter .inline {
+		flex-direction: column;
+		align-items: stretch;
+	}
+
+	.brands__content {
+		flex-direction: column;
+	}
+
+	#footer-order-call {
+		flex-flow: row-reverse;
+	}
+
+	#footer-info,
+	#footer-order-call {
+		width: 100%;
+		justify-content: space-between;
+	}
+
+	.footer__copyright {
+		margin-left: auto;
+	}
+
+	.slider__pagination {
+		justify-content: center;
+	}
+}
+
+
+/* === mobile first === */
+
+/* xs */
+
+@media (min-width: 0) {
+
+}
+
+/* sm */
+
+@media (min-width: 576px) {
+	.section__line {
+		display: none;
+	}
+
+	.newsletter__form .btn {
+		justify-self: start;
+	}
+}
+
+/* md */
+
+@media (min-width: 768px) {
+	.features {
+		align-items: center;
+	}
+
+	.about .newsletter {
+		width: 60rem;
+	}
+}
+
+/* lg */
+
+@media (min-width: 992px) {
+
+}
+
+/* xl */
+
+@media (min-width: 1200px) {
+
+}
+
+/* xxl */
+
+@media (min-width: 1400px) {
+
+}
