@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('https://www.grazia.ru/upload/img_cache/a53/a533b32216f6d99ae241318ebfd108d4_cropped_510x341.jpg'); /* Здесь замените на URL вашего изображения моря */
+    background-size: cover; /* Заставляет изображение полностью покрывать экран */
+    background-position: center; /* Центрирует изображение на фоне */
+}
+
+.business-card {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8); /* Полупрозрачный белый фон для визитки */
+    text-align: center;
+}
+
+.business-card h1 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.business-card p {
+    margin: 5px 0;
+}
+.highlight {
+    background-color: rgb(226, 226, 226); 
+    padding: 15px; 
+    border-radius: 15px; 
+}
