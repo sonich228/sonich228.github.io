@@ -21,6 +21,13 @@
 - **Дизайн и UX/UI**:  
   ![Adobe Photoshop](https://img.shields.io/badge/Photoshop-31A8FF?style=for-the-badge&logo=adobephotoshop&logoColor=white)
   ![Adobe Illustrator](https://img.shields.io/badge/Adobe%20Illustrator-FF9A00?style=for-the-badge&logo=adobe%20illustrator&logoColor=white)
+  
+
+
+## 📷 Примеры работ
+
+![Пример работы 1](https://github.com/daerhtt/my-profile/blob/main/image_2024-09-19_14-43-02.png)  
+_Сайт для тату-студии_
 
 
 
